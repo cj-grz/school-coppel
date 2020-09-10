@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Coppel Menu Icon</title>
+		<meta name="description" content="Demo for the the tutorial on how to animate a menu icon using SVG and Segment" />
+		<meta name="keywords" content="SVG, Segment, animation, tutorial, hamburger icon, css, javascript" />
+		<meta name="author" content="Luis Manuel for Codrops" />
+		<link rel="shortcut icon" href="https://lh3.googleusercontent.com/_BFR1kq2T5cNelsy8AoCd-epMEdPP5ZjdiXhIroNp0Adv5H8TgfcX2YIeAkqu6Gewu0">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script src="js/segment.min.js"></script>
+		<script src="js/ease.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="codrops-header">
+				<div class="codrops-links">
+
+				</div>
+				<h1 id="text1" style="color:#ffe311">Coppel Apps <span style="color:#ffe311">How the Menu looks <a href="https://github.com/lmgonzalves/segment"></a> </h1>
+			</header>
+			<div class="content">
+				<div class="device">
+					<div class="device__screen">
+							<img src="coppele.jpg" alt="ss de coppel" style="width:100%;height:90%;">
+						<div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: hidden">
+							<svg width="1000px" height="1000px">
+								<path id="pathA" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+								<path id="pathB" d="M 300 500 L 700 500"></path>
+								<path id="pathC" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+							</svg> -->
+						 <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+						</div><!-- menu-icon-wrapper -->
+						<div id="dummy" class="dummy">
+							<div class="dummy__item"></div>
+							<div class="dummy__item"></div>
+							<div class="dummy__item"></div>
+							<div class="dummy__item"></div>
+						</div><!-- /dummy -->
+					</div><!-- /device-content -->
+				</div><!-- /device -->
+			</div><!-- /content -->
+			<div class="content content--alt">
+				<p class="info">The main idea is to create a strongly intuitive menu for every person, using the <strong>trajectory of each bar</strong> in the menu to select a service. </p>
+				<img class="info-img" src="https://lh3.googleusercontent.com/_BFR1kq2T5cNelsy8AoCd-epMEdPP5ZjdiXhIroNp0Adv5H8TgfcX2YIeAkqu6Gewu0" alt="menuicon"/>
+			</div>
+			<div class="content">
+				<h1 class="content__title" id="text2" style="color:#ffe100">Proposal for Coppel menu <span style="color:#ffe100" >How the menu <strong>should</strong> look</span></h1>
+				<div class="device device--alt">
+					<div class="device__screen">
+							<img src="https://cdn.worldvectorlogo.com/logos/coppel-1.svg" alt="Logo" id='coppel' align="right" style=" width: 190px;">
+						<div id="menu-icon-wrapper2" class="menu-icon-wrapper" style="visibility: hidden">
+							<svg width="1000px" height="1000px">
+
+								<path id="pathD" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+								<path id="pathE" d="M 300 500 L 700 500"></path>
+								<path id="pathF" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+							</svg>
+							<button id="menu-icon-trigger2" class="menu-icon-trigger"></button>
+
+						</div><!-- menu-icon-wrapper -->
+					 <div id="dummy2" class="dummy">
+						 <div class="dummy__item"><h1 style="color:#2d4da8">Coppel en linea <img src="https://lh3.googleusercontent.com/_BFR1kq2T5cNelsy8AoCd-epMEdPP5ZjdiXhIroNp0Adv5H8TgfcX2YIeAkqu6Gewu0" alt="Logo" align="right" style=" width: 40px;" >  </h1></div>
+						 <div class="dummy__item"><h1 style="color:#2d4da8"> BanCoppel 	<img src="https://www.bancoppel.com/images/footer/logo_bcopp_express.png" alt="Logo Bancoppel" align="right" style=" width: 40px;"></h1> </div>
+						 <div class="dummy__item"><h1 style="color:#2d4da8">Afore Coppel 	<img src="https://lh3.googleusercontent.com/eybgNvrZZwBp1MoD7BN0k_nYYOfQv0qywDezKkipXkun5G_Ms5JzQO20Hyr9s62phw" alt="Logo afore" align="right" padding-top="50px" style=" width: 40px;"> </h1> </div>
+						 <div class="dummy__item"><h1 style="color:#2d4da8">Coppel Viajes	<img src="https://images.e-tsw.com/_lib/b2b2c-sites/op/coppel/img/coppel.png" alt="Logo viajes" align="right" style=" width: 60px;"> </h1> </div>
+						</div><!-- /dummy -->
+					</div><!-- /device-content -->
+				</div><!-- /device -->
+			</div><!-- /content -->
+			<!-- Related demos -->
+			<!-- <section class="content content--related"> -->
+				<!-- <p>If you enjoyed this demo you might also like:</p>
+				<a class="media-item" href="http://tympanus.net/Development/AnimatedSVGIcons/">
+					<img class="media-item__img" src="img/related/AnimatedSVGIcons.jpg">
+					<h3 class="media-item__title">Animated SVG Icons</h3>
+				</a>
+				<a class="media-item" href="http://tympanus.net/Development/AnimatedCheckboxes/">
+					<img class="media-item__img" src="img/related/AnimatedCheckboxes.png">
+					<h3 class="media-item__title">Animated Checkboxes with SVG</h3>
+				</a> -->
+			</section>
+		</div><!-- /container -->
+		<script src="js/main.js"></script>
+	</body>
+</html>
